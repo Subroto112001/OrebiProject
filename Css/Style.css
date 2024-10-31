@@ -74,3 +74,63 @@ html {
   
 }
 /* ======================= Header css end ================ */
+/* ------------------------ Navbar css Start ================ */
+#Navbar {
+  background-color: #f5f5f3;
+  padding: 25px 0;
+}
+.NavbarPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavbarPartleft__Titele {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--band_color);
+  align-items: center;
+}
+.NavbarPartleftlist {
+  display: none;
+  background-color: var(--main_bg_color);
+  position: absolute;
+  left: 0px;
+  top: 21px;
+  padding: 18px;
+}
+.NavbarPartleftlistItem {
+  margin-top: 15px;
+}
+.NavbarPartleftlistItem__link {
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--band_color);
+}
+.NavbarPartleft__Titele:hover .NavbarPartleftlist {
+  display: block;
+}
+.NavbarPartMiddleFrom {
+  background-color: var(--main_bg_color);
+  padding: 16px 21px;
+}
+.NavbarPartMiddleFrom__input {
+  padding-right: 443px;
+  border: none;
+}
+.NavbarPartMiddleFrom__btn {
+  background-color: var(--main_bg_color);
+  border: none;
+}
+.NavbarPartRight {
+  display: flex;
+  column-gap: 41px;
+  align-items: center;
+}
+.NavbarPartRight__User {
+  display: flex;
+  column-gap: 10px;
+}
+/* ------------------------ Navbar css Start ================ */
