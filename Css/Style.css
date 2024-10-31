@@ -1,0 +1,76 @@
+/* ======================= font style ==================== */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+/* ---------------------- font style --------------------- */
+/* ======================= common css start =============== */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+section,
+ul,
+ol,
+li,
+a {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main_bg_color: #fff;
+  --cardBanner_bg-color: #f3f3f3;
+  --band_color: #262626;
+  --primary_color: #767676;
+  --footer_font_color: #6d6d6d;
+  --font_family: "DM Sans", sans-serif;
+}
+/* ======================= common css end ================ */
+/* ======================= Header css Start ================ */
+#header{
+    padding: 32px 0;
+    background-color: var(--main_bg_color);
+}
+.headerPart{
+    display: flex;
+}
+.headerPartItem{
+    display: flex;
+    column-gap: 40px;
+    padding-left: 544px;
+}
+.headerPartItemList__link{
+    color: var(--primary_color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.headerPartItemList:hover .headerPartItemList__link{
+    color: var(--band_color);
+  
+}
+/* ======================= Header css end ================ */
