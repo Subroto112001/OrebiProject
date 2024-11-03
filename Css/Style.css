@@ -51,27 +51,26 @@ html {
 }
 /* ======================= common css end ================ */
 /* ======================= Header css Start ================ */
-#header{
-    padding: 32px 0;
-    background-color: var(--main_bg_color);
+#header {
+  padding: 32px 0;
+  background-color: var(--main_bg_color);
 }
-.headerPart{
-    display: flex;
+.headerPart {
+  display: flex;
 }
-.headerPartItem{
-    display: flex;
-    column-gap: 40px;
-    padding-left: 544px;
+.headerPartItem {
+  display: flex;
+  column-gap: 40px;
+  padding-left: 544px;
 }
-.headerPartItemList__link{
-    color: var(--primary_color);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400;
+.headerPartItemList__link {
+  color: var(--primary_color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
 }
-.headerPartItemList:hover .headerPartItemList__link{
-    color: var(--band_color);
-  
+.headerPartItemList:hover .headerPartItemList__link {
+  color: var(--band_color);
 }
 /* ======================= Header css end ================ */
 /* ------------------------ Navbar css Start ================ */
@@ -133,4 +132,69 @@ html {
   display: flex;
   column-gap: 10px;
 }
-/* ------------------------ Navbar css Start ================ */
+/* ------------------------ Navbar css End ================ */
+/* ------------------------ Hero css Start ================ */
+#Banner {
+  background-image: url(../Images/Banner/banner.png);
+  padding: 236px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.BannerPart {
+  display: flex;
+
+  align-items: center;
+}
+.BannerPart__count {
+  font-size: 10px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--band_color);
+  position: relative;
+  margin-left: 26px;
+}
+
+.BannerPart__count::after {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 2px;
+  background-color: var(--band_color);
+  right: -10px;
+}
+.BannerPartFinal__title {
+  font-size: 49px;
+  font-weight: 800;
+  color: var(--band_color);
+  font-family: var(--font_family);
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.BannerPartFinal__summary{
+  font-size: 16px;
+  color: var(--footer_font_color);
+  font-family: var(--font_family);
+  font-weight: 400;
+  display: flex;
+    align-items: center;
+    margin-top: 33px;
+}
+.BannerPartFinal__summary__span{
+  font-size: 49px;
+  font-weight: 800;
+  color: var(--band_color);
+  font-family: var(--font_family);
+   text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+
+}
+.BannerPartFinal__btn{
+  background-color: var(--band_color);
+  color: var(--main_bg_color);
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--font_family);
+  padding: 16px 57px;
+  margin-top: 49px;
+}
+/* ------------------------ Hero css End ================ */
