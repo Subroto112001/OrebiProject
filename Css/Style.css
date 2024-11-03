@@ -213,13 +213,10 @@ html {
 }
 .WarrantyPartPhonePictureOverlayer {
   position: absolute;
-  top: 470px;
-  left: -356px;
-  transition: all linear 0.3s;
-  -webkit-transition: all linear 0.3s;
-  -moz-transition: all linear 0.3s;
-  -ms-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
+   top: 364px;
+  left: 64px;
+  
+ 
 }
 .WarrantyPartPhonePictureOverlayer__title {
   font-size: 39px;
@@ -245,7 +242,14 @@ html {
   font-family: var(--font_family);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.Button__Phone{
+  position: relative;
+  width: 100%;
+}
 .BannerPartFinal__btn {
+  position: absolute;
+  top: 0px;
+  left: -356px;
   background-color: var(--band_color);
   color: var(--main_bg_color);
   font-size: 16px;
@@ -253,28 +257,77 @@ html {
   font-family: var(--font_family);
   padding: 16px 57px;
   margin-top: 40px;
+   transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
-.WarrantyPartPhone:hover .WarrantyPartPhonePictureOverlayer {
-  top: 470px;
-  left: 64px;
+.WarrantyPartPhone:hover .BannerPartFinal__btn {
+  top: 0px;
+  left: 0px;
 }
 /* ~~~~~~~~~~~~ Phone Sale Css ~~~~~~~~~~~~ */
-.WarrantyPartElectronicPictureOverlayer{
-   position: absolute;
-  top: 10px;
-  right: -356px;
+/* ~~~~~~~~~~~~ Warranty Sale Css ~~~~~~~~~~~~ */
+.WarrantyPartElectronic {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.WarrantyPartElectronicPictureOverlayer {
+  position: absolute;
+  bottom: 100px;
+  right: 280px;
+  
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
-.WarrantyPartElectronic{
+.WarrantyPartElectronicPictureOverlayer__title {
+  font-size: 39px;
+  font-family: var(--font_family);
+  color: var(--band_color);
+  font-weight: 800;
+}
+.WarrantyPartElectronicPictureOverlayer__summary {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--footer_font_color);
+}
+.WarrantyPartElectronicPictureOverlayer__summary__span {
+  font-size: 39px;
+  font-family: var(--font_family);
+  color: var(--band_color);
+  font-weight: 800;
+}
+.BannerPartFinalElectronic__btn {
+  position: absolute;
+top: 8px;
+  left: 630px;
+  padding: 16px 57px;
+  background-color: var(--band_color);
+  color: var(--main_bg_color);
+  font-size: 14px;
+  font-weight: 700;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.ElectronicBtn {
   position: relative;
+ width: 100%;
+  
 }
-.WarrantyPartElectronic:hover .WarrantyPartElectronicPictureOverlayer {
-  top: 66px; 
-  left: 53px;
+.WarrantyPartElectronic:hover .BannerPartFinalElectronic__btn {
+ top: 8px;
+left: 0;
 }
+/* ~~~~~~~~~~~~ Warranty Sale Css ~~~~~~~~~~~~ */
 
 /* ------------------------ Wrranty css End ================ */

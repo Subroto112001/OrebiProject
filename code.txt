@@ -1,0 +1,16 @@
+  <div class="WarrantyPartElectronic">
+              <picture>
+                <img src="./Images/Warranty/Electronic.png" alt="Electronic.png" title="Electronic.png" class="w-100 img-fluid WarrantyPartElectronicPicture" >
+              </picture>
+              <div class="WarrantyPartElectronicPictureOverlayer">
+                <h4 class="WarrantyPartPhonePictureOverlayer__title ">
+                Final Offer
+              </h4>
+              <p class="WarrantyPartPhonePictureOverlayer__summary">
+                Up to &nbsp; <span class="WarrantyPartPhonePictureOverlayer__summary__span">
+                  50%
+                </span> &nbsp; sale for all furniture items!
+              </p>
+              <button class="BannerPartFinal__btn">Shop Now</button>
+              </div>
+            </div>
