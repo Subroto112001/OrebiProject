@@ -49,8 +49,8 @@ html {
   --footer_font_color: #6d6d6d;
   --font_family: "DM Sans", sans-serif;
 }
-/* ======================= common css end ================ */
-/* ======================= Header css Start ================ */
+/* ------------------------ common css end ------------------------ */
+/* ------------------------ Header css Start ------------------------ */
 #header {
   padding: 32px 0;
   background-color: var(--main_bg_color);
@@ -72,8 +72,8 @@ html {
 .headerPartItemList:hover .headerPartItemList__link {
   color: var(--band_color);
 }
-/* ======================= Header css end ================ */
-/* ------------------------ Navbar css Start ================ */
+/* ------------------------ Header css end ------------------------ */
+/* ------------------------ Navbar css Start ------------------------ */
 #Navbar {
   background-color: #f5f5f3;
   padding: 25px 0;
@@ -132,8 +132,8 @@ html {
   display: flex;
   column-gap: 10px;
 }
-/* ------------------------ Navbar css End ================ */
-/* ------------------------ Hero css Start ================ */
+/* ------------------------ Navbar css End ------------------------ */
+/* ------------------------ Hero css Start ------------------------ */
 #Banner {
   background-image: url(../Images/Banner/banner.png);
   padding: 236px 0;
@@ -197,14 +197,43 @@ html {
   padding: 16px 57px;
   margin-top: 49px;
 }
-/* ------------------------ Hero css End ================ */
-/* ------------------------ Wrranty css Start ================ */
+/* ------------------------ Hero css End ------------------------ */
+/* ------------------------ Wrranty css Start ------------------------ */
 #Warranty {
   background-color: var(--main_bg_color);
 }
 .WarrantyPart {
-  /* ========== */
+  padding-top: 174px;
 }
+/* ~~~~~~~~~~~~ Warranty Header Sale Css ~~~~~~~~~~~~ */
+.WarrantyHeaderWrapper {
+  padding: 30px 0px;
+}
+.WarrantyHeader {
+  display: flex;
+  column-gap: 17px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.Header--cstm1 {
+  justify-content: center;
+}
+.Header--cstm2 {
+  justify-content: end;
+}
+.WarrantyHeader__coutn {
+  font-size: 29px;
+  font-weight: 700;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.WarrantyHeader__title {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--footer_font_color);
+  font-family: var(--font_family);
+}
+/* ~~~~~~~~~~~~ Warranty Header Sale Css ~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~ Phone Sale Css ~~~~~~~~~~~~ */
 .WarrantyPartPhone {
   position: relative;
@@ -213,10 +242,8 @@ html {
 }
 .WarrantyPartPhonePictureOverlayer {
   position: absolute;
-   top: 364px;
+  top: 364px;
   left: 64px;
-  
- 
 }
 .WarrantyPartPhonePictureOverlayer__title {
   font-size: 39px;
@@ -242,7 +269,7 @@ html {
   font-family: var(--font_family);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.Button__Phone{
+.Button__Phone {
   position: relative;
   width: 100%;
 }
@@ -257,7 +284,7 @@ html {
   font-family: var(--font_family);
   padding: 16px 57px;
   margin-top: 40px;
-   transition: all linear 0.3s;
+  transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
   -ms-transition: all linear 0.3s;
@@ -278,7 +305,7 @@ html {
   position: absolute;
   bottom: 100px;
   right: 280px;
-  
+
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -305,7 +332,7 @@ html {
 }
 .BannerPartFinalElectronic__btn {
   position: absolute;
-top: 8px;
+  top: 8px;
   left: 630px;
   padding: 16px 57px;
   background-color: var(--band_color);
@@ -321,13 +348,190 @@ top: 8px;
 
 .ElectronicBtn {
   position: relative;
- width: 100%;
-  
+  width: 100%;
 }
 .WarrantyPartElectronic:hover .BannerPartFinalElectronic__btn {
- top: 8px;
-left: 0;
+  top: 8px;
+  left: 0;
 }
 /* ~~~~~~~~~~~~ Warranty Sale Css ~~~~~~~~~~~~ */
 
-/* ------------------------ Wrranty css End ================ */
+/* ------------------------ Wrranty css End ------------------------ */
+/* ------------------------ NewArrivals css End ------------------------ */
+#NewArrivals {
+  padding: 128px 0;
+  background-color: var(--main_bg_color);
+}
+.NewArrivalsPart__title {
+  font-size: 39px;
+  font-weight: 700;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.NewArrivalsPartItem {
+  position: relative;
+  margin-top: 48px;
+  overflow: hidden;
+}
+.NewArrivalsPartItem__btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 9px 32px;
+  background-color: var(--band_color);
+  color: var(--main_bg_color);
+  font-size: 16px;
+  font-family: var(--font_family);
+  font-weight: 400;
+}
+/* ~~~~~~~~~~~~~~~~~~~ New Arrivales Part Overlayer ~~~~~~~~~~~~~~~~~~~ */
+.NewArrivalsPartItemOverlayer {
+  padding: 10px;
+  position: absolute;
+  bottom: -190px;
+  right: 0;
+  width: 100%;
+  background-color: var(--main_bg_color);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  row-gap: 21px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+/* ``````````````````` NewArrivalsPartItemOverlayer hover ````````````````````` */
+.NewArrivalsPartItem:hover .NewArrivalsPartItemOverlayer {
+  bottom: 91px;
+  right: 0;
+}
+/* ``````````````````` NewArrivalsPartItemOverlayer hover ````````````````````` */
+.NewArrivalsPartItemOverlayer__title a {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--primary_color);
+  text-decoration: none;
+}
+.NewArrivalsPartItemOverlayer__title i {
+  color: var(--band_color);
+}
+/* ~~~~~~~~~~~~~~~~~~~ New Arrivales Part Overlayer ~~~~~~~~~~~~~~~~~~~ */
+.NewArrivalsPartItemBottomWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.NewArrivalsPartItem__BottomHeader {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.NewArrivalsPartItem__BottomSubHeader {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary_color);
+  font-family: var(--font_family);
+}
+.BottomSubHeader--cstm {
+  margin-top: 15px;
+}
+.NewArrivalsPart2ndWrapper {
+  padding-top: 217px;
+}
+/* ------------------------ NewArrivals css End ------------------------*/
+/* ------------------------ Phone Of the Year css Start ------------------------*/
+#Phone {
+  padding: 128px 0px;
+  background-color: var(--main_bg_color);
+}
+.PhonePart {
+  background-color: var(--cardBanner_bg-color);
+  display: flex;
+  width: 100%;
+}
+.PhonePartRight {
+  padding: 60px 0px;
+  background-color: var(--cardBanner_bg-color);
+}
+.PhonePartRight__title {
+  font-size: 39px;
+  font-weight: 700;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.PhonePartRight__Summary {
+  margin-top: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--band_color);
+  font-family: var(--font_family);
+  width: 75%;
+}
+.PhonePartRight__btn {
+  margin-top: 50px;
+  padding: 16px 50px;
+  background-color: var(--band_color);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--main_bg_color);
+  font-family: var(--font_family);
+}
+/* ------------------------ Phone Of the Year css Start ------------------------*/
+/* ------------------------ footer css Start ================ */
+#Footer {
+  background-color: #f5f5f3;
+  padding: 55px 0;
+}
+.FooterPart {
+  /* css */
+}
+.FooterPartIteamWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.FooterPartIteam {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.FooterPartIteamList__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+  font-family: var(--font_family);
+}
+.FooterPartIteamList__link--cstm {
+  margin-bottom: 17px;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.FooterPartIteam__contactNum {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+
+.FooterPartIconBoxWrapper {
+  margin-top: 65px;
+}
+.FooterPartIconBox {
+  display: flex;
+  column-gap: 26px;
+  align-items: center;
+}
+.FooterPart__footerline {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: #6d6d6d;
+}
+/* ------------------------ footer css end ------------------------ */
