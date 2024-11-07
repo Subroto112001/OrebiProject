@@ -1,0 +1,344 @@
+/* ======================= font style ==================== */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+/* ---------------------- font style --------------------- */
+/* ======================= common css start =============== */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+section,
+ul,
+ol,
+li,
+a {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main_bg_color: #fff;
+  --cardBanner_bg-color: #f3f3f3;
+  --band_color: #262626;
+  --primary_color: #767676;
+  --footer_font_color: #6d6d6d;
+  --font_family: "DM Sans", sans-serif;
+}
+/* ------------------------ common css end ------------------------ */
+/* ------------------------ Header css Start ------------------------ */
+#header {
+  padding: 32px 0;
+  background-color: var(--main_bg_color);
+}
+.headerPart {
+  display: flex;
+}
+.headerPartItem {
+  display: flex;
+  column-gap: 40px;
+  padding-left: 544px;
+}
+.headerPartItemList__link {
+  color: var(--primary_color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+.headerPartItemList:hover .headerPartItemList__link {
+  color: var(--band_color);
+}
+/* ------------------------ Header css end ------------------------ */
+/* ------------------------ Navbar css Start ------------------------ */
+#Navbar {
+  background-color: #f5f5f3;
+  padding: 25px 0;
+}
+.NavbarPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavbarPartleft__Titele {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--band_color);
+  align-items: center;
+}
+.NavbarPartleftlist {
+  display: none;
+  background-color: var(--main_bg_color);
+  position: absolute;
+  left: 0px;
+  top: 21px;
+  padding: 18px;
+}
+.NavbarPartleftlistItem {
+  margin-top: 15px;
+}
+.NavbarPartleftlistItem__link {
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--band_color);
+}
+.NavbarPartleft__Titele:hover .NavbarPartleftlist {
+  display: block;
+}
+.NavbarPartMiddleFrom {
+  background-color: var(--main_bg_color);
+  padding: 16px 21px;
+}
+.NavbarPartMiddleFrom__input {
+  padding-right: 443px;
+  border: none;
+}
+.NavbarPartMiddleFrom__btn {
+  background-color: var(--main_bg_color);
+  border: none;
+}
+.NavbarPartRight {
+  display: flex;
+  column-gap: 41px;
+  align-items: center;
+}
+.NavbarPartRight__User {
+  display: flex;
+  column-gap: 10px;
+}
+/* ------------------------ Navbar css End ------------------------ */
+/* ------------------------ Product css Start ------------------------ */
+#Product {
+  padding: 128px 0;
+  background-color: var(--main_bg_color);
+}
+.ProductPartHeaderDownWrapper {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 11px;
+}
+.ProductPartHeaderDownWrapper i {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--primary_color);
+}
+.ProductPartHeaderDown__Subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--primary_color);
+}
+.ShopByCategory--cstm {
+  background-color: var(--main_bg_color);
+}
+.colorCircle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color) !important;
+  background-color: var(--main_bg_color) !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid var(--cardBanner_bg-color);
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "+";
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0 !important;
+  font-size: 1rem;
+  color: var(--bs-accordion-btn-color);
+  text-align: left;
+  background-color: var(--bs-accordion-btn-bg);
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: var(--bs-accordion-transition);
+}
+.accordion-body {
+  padding: 20px 0 !important;
+  display: flex;
+  align-items: center;
+}
+/* ------------------------ Product css End ------------------------ */
+.NewArrivalsPartItem {
+  position: relative;
+  margin-top: 48px;
+  overflow: hidden;
+}
+.NewArrivalsPartItem__btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 9px 32px;
+  background-color: var(--band_color);
+  color: var(--main_bg_color);
+  font-size: 16px;
+  font-family: var(--font_family);
+  font-weight: 400;
+}
+/* ~~~~~~~~~~~~~~~~~~~ New Arrivales Part Overlayer ~~~~~~~~~~~~~~~~~~~ */
+.NewArrivalsPartItemOverlayer {
+  padding: 10px;
+  position: absolute;
+  bottom: -190px;
+  right: 0;
+  width: 100%;
+  background-color: var(--main_bg_color);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  row-gap: 21px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+/* ``````````````````` NewArrivalsPartItemOverlayer hover ````````````````````` */
+.NewArrivalsPartItem:hover .NewArrivalsPartItemOverlayer {
+  bottom: 91px;
+  right: 0;
+}
+/* ``````````````````` NewArrivalsPartItemOverlayer hover ````````````````````` */
+.NewArrivalsPartItemOverlayer__title a {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--primary_color);
+  text-decoration: none;
+}
+.NewArrivalsPartItemOverlayer__title i {
+  color: var(--band_color);
+}
+/* ~~~~~~~~~~~~~~~~~~~ New Arrivales Part Overlayer ~~~~~~~~~~~~~~~~~~~ */
+.NewArrivalsPartItemBottomWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.NewArrivalsPartItem__BottomHeader {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.NewArrivalsPartItem__BottomSubHeader {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary_color);
+  font-family: var(--font_family);
+}
+.BottomSubHeader--cstm {
+  margin-top: 15px;
+}
+
+/* ------------------------ footer css Start ------------------------ */
+#Footer {
+  background-color: #f5f5f3;
+  padding: 55px 52px;
+}
+.FooterPart {
+  /* css */
+}
+.FooterPartIteam {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  padding: 0;
+  margin: 0;
+}
+.FooterPartIteamList__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+  font-family: var(--font_family);
+  text-decoration: none;
+}
+.FooterPartIteamList__link--cstm {
+  margin-bottom: 17px;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.FooterPartIteam__contactNum {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+
+.FooterPartIconBoxWrapper {
+  padding-top: 65px;
+}
+.FooterPartIconBox {
+  display: flex;
+  column-gap: 26px;
+  align-items: center;
+}
+.FooterPart__footerline {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: #6d6d6d;
+}
+/* ------------------------ footer css end ================ */

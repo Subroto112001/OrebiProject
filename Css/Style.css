@@ -486,26 +486,54 @@ html {
 
 /* ------------------------ footer css Start ================ */
 #Footer {
-  padding: 59px 0;
   background-color: #f5f5f3;
+  padding: 55px 52px;
 }
-.FooterPartItem__Title {
+.FooterPart {
+  /* css */
+}
+.FooterPartIteam {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  padding: 0;
+  margin: 0;
+}
+.FooterPartIteamList__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+  font-family: var(--font_family);
+  text-decoration: none;
+}
+.FooterPartIteamList__link--cstm {
+  margin-bottom: 17px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 800;
   font-family: var(--font_family);
   color: var(--band_color);
 }
-.FooterPartItem{
-  margin-top: 17px;
-  display: flex;
-  flex-direction: column;
-row-gap: 6px;
+.FooterPartIteam__contactNum {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--font_family);
+  color: var(--band_color);
 }
-.FooterPartItemList__link {
+
+.FooterPartIconBoxWrapper {
+
+  padding-top: 65px;
+}
+.FooterPartIconBox {
+  
+  display: flex;
+  column-gap: 26px;
+  align-items: center;
+}
+.FooterPart__footerline {
   font-size: 14px;
   font-weight: 400;
   font-family: var(--font_family);
-  color: var(--footer_font_color);
-  text-decoration: none;
+  color: #6d6d6d;
 }
 /* ------------------------ footer css end ================ */
