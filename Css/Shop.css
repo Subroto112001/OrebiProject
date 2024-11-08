@@ -159,15 +159,27 @@ html {
 .ShopByCategory--cstm {
   background-color: var(--main_bg_color);
 }
-.colorCircle{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: red;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+.colorCircle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Circle--two {
+  background-color: black;
+}
+.Circle--three {
+  background-color: #7ed321;
+}
+.Circle--four {
+  background-color: #b6b6b6b6;
+}
+.Circle--five {
+  background-color: green;
 }
 .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color) !important;
@@ -187,15 +199,21 @@ html {
   width: var(--bs-accordion-btn-icon-width);
   height: var(--bs-accordion-btn-icon-width);
   margin-left: auto;
-  content: "+";
-  background-image: none;
-  background-repeat: no-repeat;
-  background-size: none;
+  content: "+" !important;
+  background-image: none !important;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: var(--bs-accordion-btn-active-icon);
-  transform: var(--bs-accordion-btn-icon-transform);
+  content: "-" !important;
+  background-image: none !important;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
 }
+
 .accordion-button {
   position: relative;
   display: flex;

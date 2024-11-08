@@ -290,6 +290,10 @@ html {
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
+.BannerPartFinal__btn:hover{
+  color: red;
+
+}
 .WarrantyPartPhone:hover .BannerPartFinal__btn {
   top: 0px;
   left: 0px;
@@ -345,7 +349,9 @@ html {
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
-
+.BannerPartFinalElectronic__btn:hover{
+  color: red;
+}
 .ElectronicBtn {
   position: relative;
   width: 100%;
