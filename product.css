@@ -134,6 +134,37 @@ html {
   column-gap: 10px;
 }
 /* ------------------------ Navbar css End ------------------------ */
+/* ------------------------ Product css Start ------------------------ */
+#Product {
+  background-color: var(--main_bg_color);
+}
+.ProductPartHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ProductPartHeader i {
+  font-size: 12px;
+  font-family: var(--font_family);
+  font-weight: 400;
+  color: var(--primary_color);
+}
+.ProductPartHeader__title {
+  font-size: 12px;
+  font-family: var(--font_family);
+  font-weight: 400;
+  color: var(--primary_color);
+}
+.ProductPartHeader__icon {
+  font-size: 12px;
+  font-family: var(--font_family);
+  font-weight: 400;
+  color: var(--primary_color);
+}
+.ProductPartItem{
+  padding: 128px 0;
+}
+/* ------------------------ Product css End ------------------------ */
 
 /* ------------------------ footer css Start ------------------------ */
 #Footer {
