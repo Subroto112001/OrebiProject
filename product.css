@@ -165,6 +165,21 @@ html {
   padding: 128px 0;
 }
 /* ------------------------ Product css End ------------------------ */
+/* ------------------------ ProductCart css Start ------------------------ */
+#ProductCart{
+  padding: 50px 0;
+background-color: var(--main_bg_color);
+}
+.ProductCartPart{
+  /* -------- */
+}
+.ProductCartPart__Heading{
+  font-size: 39px;
+  font-weight: 700;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+/* ------------------------ ProductCart css End ------------------------ */
 
 /* ------------------------ footer css Start ------------------------ */
 #Footer {
