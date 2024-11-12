@@ -293,7 +293,7 @@ html {
   flex-direction: row;
   column-gap: 20px;
   padding: 30px 0;
-   border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
 }
 .ProductCartPartProductButton__Butn1 {
   padding: 16px 40px;
@@ -336,7 +336,130 @@ html {
   color: var(--primary_color);
 }
 /* ------------------------ ProductCart css End ------------------------ */
+/* ------------------------ ProductCartDiscription css Start ------------------------ */
 
+/* ------------------------ ProductCartDiscription css Start ------------------------ */
+#ProductDisciption {
+  padding: 128px 0;
+  background-color: var(--main_bg_color);
+}
+.ProductDisciptionPartHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 62px;
+}
+.ProductDisciptionPartHeader__title {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--primary_color);
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.ProductDisciptionPartHeader__title:hover {
+  transform: scale(1.1);
+  color: var(--band_color);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.ProductDisciptionPartReview {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 42px 0 16px 0;
+}
+.ProductDisciptionPartReview__title {
+  font-size: 14px;
+  font-family: var(--font_family);
+  font-weight: 400;
+  color: var(--primary_color);
+}
+.ProductDisciptionPartSummary {
+  margin-top: 37px;
+}
+.ProductDisciptionPartSummaryHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.ProductDisciptionPartSummaryHeaderLeft {
+  display: flex;
+  align-items: center;
+  column-gap: 37px;
+}
+.ProductDisciptionPartSummaryHeaderLeft__title {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.ProductDisciptionPartSummaryHeaderLeft__icon {
+  display: flex;
+  column-gap: 2px;
+  color: gold;
+}
+.ProductDisciptionPartSummaryHeaderRight__title {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--primary_color);
+}
+.ProductDisciptionPartSummary__Discirption {
+  margin-top: 22px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary_color);
+  font-family: var(--font_family);
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+/* ------------------------ ProductCartDiscription css End ------------------------ */
+/* ------------------------ Product Reciew css Start ------------------------ */
+#ProductReview {
+  padding: 56px 0;
+  background-color: var(--main_bg_color);
+}
+.ProductReviewPart__title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.ProductReviewPartNameWrapper {
+  padding: 48px 0 16px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.ProductReviewPartName__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--band_color);
+  font-family: var(--font_family);
+}
+.ProductReviewPartName__Input{
+  margin-top: 10px;
+  border: none;
+  background-color: var(--main_bg_color);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary_color);
+}
+.cstm--Input{
+  padding: 15px 0;
+}
+.ProductReviewPartButton{
+  margin-top: 30px;
+  padding: 16px 88px;
+  background-color: var(--band_color);
+  color: var(--main_bg_color);
+  font-size: 14px;
+  font-family: var(--font_family);
+  font-weight: 700;
+}
+/* ------------------------ Product Reciew css End ------------------------ */
 /* ------------------------ footer css Start ------------------------ */
 #Footer {
   background-color: #f5f5f3;
