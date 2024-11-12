@@ -161,23 +161,179 @@ html {
   font-weight: 400;
   color: var(--primary_color);
 }
-.ProductPartItem{
+.ProductPartItem {
   padding: 128px 0;
 }
 /* ------------------------ Product css End ------------------------ */
 /* ------------------------ ProductCart css Start ------------------------ */
-#ProductCart{
+#ProductCart {
   padding: 50px 0;
-background-color: var(--main_bg_color);
+  background-color: var(--main_bg_color);
 }
-.ProductCartPart{
+.ProductCartPart {
   /* -------- */
 }
-.ProductCartPart__Heading{
+.ProductCartPart__Heading {
   font-size: 39px;
   font-weight: 700;
   font-family: var(--font_family);
   color: var(--band_color);
+}
+.ProductCartPartSubTitleWrapper {
+  border-bottom: 1px solid #f0f0f0;
+}
+.ProductCartPartSubTitle {
+  display: flex;
+  column-gap: 25px;
+  margin-top: 15px;
+  margin-bottom: 24px;
+}
+.ProductCartPartSubTitle__Star {
+  display: flex;
+  column-gap: 2px;
+  color: gold;
+}
+.ProductCartPartSubTitle__Headline {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--primary_color);
+}
+.ProductCartPartSelection {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 30px 0px;
+}
+.ProductCartPartSelectionColor {
+  display: flex;
+  align-items: center;
+
+  column-gap: 15px;
+}
+.ProductCartPartSelectionColor__title {
+  font-size: 16px;
+  font-family: var(--font_family);
+  font-weight: 700;
+  color: var(--band_color);
+  margin-right: 42px;
+}
+.ProductCartPartSelectionColor__Color1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  background-color: #00000034;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: ease-in-out 0.3s;
+  -webkit-transition: ease-in-out 0.3s;
+  -moz-transition: ease-in-out 0.3s;
+  -ms-transition: ease-in-out 0.3s;
+  -o-transition: ease-in-out 0.3s;
+}
+.ProductCartPartSelectionColor__Color1:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  cursor: pointer;
+}
+.Color--2 {
+  background-color: #ff8686;
+}
+.Color--3 {
+  background-color: #7ed321;
+}
+.Color--4 {
+  background-color: #b6b6b6;
+}
+.Color--5 {
+  background-color: #15cba5;
+}
+.ProductCartPartSelectionFrom {
+  padding-top: 36px;
+}
+.ProductCartPartSelectionFrom__Size {
+  font-size: 16px;
+  font-family: var(--font_family);
+  font-weight: 700;
+  color: var(--band_color);
+  margin-right: 76px;
+}
+#Size {
+  padding: 0px 20px;
+  border: 1px solid var(--cardBanner_bg-color);
+}
+.ProductCartPartStatus {
+  display: flex;
+  align-items: center;
+  column-gap: 27px;
+  padding: 21px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.ProductCartPartStatus__headig {
+  font-size: 16px;
+  font-family: var(--font_family);
+  font-weight: 700;
+  color: var(--band_color);
+  margin-right: 76px;
+}
+.ProductCartPartStatus__SubHeadig {
+  font-size: 16px;
+  font-family: var(--font_family);
+  font-weight: 700;
+  color: var(--primary_color);
+  margin-right: 76px;
+}
+/* ~~~~~~~~~~ButtonPart CSS ~~~~~~~~~~~~ */
+.ProductCartPartProductButton {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  padding: 30px 0;
+   border-bottom: 1px solid #f0f0f0;
+}
+.ProductCartPartProductButton__Butn1 {
+  padding: 16px 40px;
+  background-color: var(--main_bg_color);
+  border: 2px solid var(--band_color);
+  color: var(--band_color);
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  font-size: 14px;
+  font-family: var(--font_family);
+  font-weight: 700;
+}
+.ProductCartPartProductButton__Butn1:hover {
+  background-color: var(--band_color);
+  color: var(--main_bg_color);
+}
+/* ~~~~~~~~~~ButtonPart CSS ~~~~~~~~~~~~ */
+.ProductCartPartFeaturesDetails {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+}
+.ProductCartPartFeaturesDetails__title {
+  font-size: 16px;
+  font-weight: 700;
+
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.ProductCartPart__Summary {
+  padding: 30px 0;
+  font-size: 16px;
+  font-family: var(--font_family);
+  font-weight: 400;
+  color: var(--primary_color);
 }
 /* ------------------------ ProductCart css End ------------------------ */
 
